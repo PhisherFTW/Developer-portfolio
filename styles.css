@@ -1,0 +1,116 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+.card-body {
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    width: 17.4rem;
+    margin: 2rem auto;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    border-radius: 1rem;
+}
+h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 1rem ;
+}
+h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+.p1{
+    text-align: left;
+    padding-left: 1rem;
+    color: hsl(215, 51%, 70%);
+}
+p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+.icon-imgs {
+    position: relative;
+    display: inline;
+}
+.eth-txt {
+    position: relative;
+    display: inline;
+    width: 2rem;
+    padding-right: 3.25rem;
+    color: hsl(178, 100%, 50%);
+}
+.days-left {
+    display: inline;
+    position: relative;
+    width: 2rem;
+    color: hsl(215, 51%, 70%);
+}
+
+
+.profile-img {
+    height: 2rem;
+    position: relative;
+    display: inline;
+    border: 1px solid white;
+    bottom: -0.5rem;
+    margin-right: 0.25rem;
+    border-radius: 100%;
+}
+.creator {
+    position: relative;
+    display: inline;
+    color: hsl(215, 51%, 70%);
+}
+hr {
+    background-color: hsl(215, 32%, 27%);
+    width: 15rem;
+    border-style: none;
+    height: 1px;
+}
+.name {
+    color: white;
+    position: relative;
+    display: inline;
+}
+.name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
+/* This is all for that image hover with the eye */
+.container {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 0.5rem;
+}
+  
+.image-equil {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+padding: 1rem auto;
+border-radius: 0.5rem;
+}
+  
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image-equil {
+opacity: 0.3;
+}
+
+.container:hover .middle {
+opacity: 1;
+}
