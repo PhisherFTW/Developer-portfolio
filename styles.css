@@ -2,7 +2,7 @@ body {
     background-color: hsl(217, 54%, 11%);
 }
 .card-body {
-    padding: 4rem 0 1rem 0;
+    padding: 1rem 0 1rem 0;
     text-align: center;
     width: 17.4rem;
     margin: 2rem auto;
@@ -31,18 +31,12 @@ p {
 .icon-imgs {
     position: relative;
     display: inline;
+    height: 0.8rem;
 }
 .eth-txt {
-    position: relative;
-    display: inline;
-    width: 2rem;
-    padding-right: 3.25rem;
     color: hsl(178, 100%, 50%);
 }
 .days-left {
-    display: inline;
-    position: relative;
-    width: 2rem;
     color: hsl(215, 51%, 70%);
 }
 
@@ -69,11 +63,14 @@ hr {
 }
 .name {
     color: white;
-    position: relative;
-    display: inline;
 }
 .name:hover {
     color: hsl(178, 100%, 50%);
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* I chose this one because it looks about right without me needing to add padding */
 }
 
 
