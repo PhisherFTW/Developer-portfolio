@@ -36,12 +36,15 @@ p {
 }
 .eth-txt {
     color: hsl(178, 100%, 50%);
-
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
 }
 
 .days-left {
     color: hsl(215, 51%, 70%);
     padding-right: 0.5rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
 }
 
 
